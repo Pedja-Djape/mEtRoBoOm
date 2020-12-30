@@ -19,6 +19,14 @@ The overarching goal of this project is to develop a neural network capable of c
   * Latin
   * EDM
   * Country
+  
+  Mel-spectrograms are extremely important when conducting auditory analysis as it essentially extracts all of the most important features of an audio clip into a singular image, where each pixel represents something specific about the audio. This process is accomplished through a series of transforms including:
+  * A Fourier transform of the signal over numerous equally-sized windows
+  * Split the entire frequency spectrum into many evenly-distributed frequencies, where the frequencies ‘sound’ equally distanced to one another based on human hearing.
+  * At this point one has a spectrogram; thus, to obtain a mel-spectrogram, one transforms on frequency spectrum into a mel spectrum. 
+
+  Before finalizing this topic, one very important aspect of the background we had to consider is that music genre classification is extremely subjective; there is ambiguity in deciding exactly what genre some songs may belong to. Music genre subjectivity is extremely apparent in the genres of hip-hop, r&b, and pop which is something we expected to see in the results of the project.
+
 
 <a name="tech"></a>
 ### Technologies Used
