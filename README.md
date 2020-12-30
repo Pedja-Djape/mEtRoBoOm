@@ -1,5 +1,5 @@
 # mEtRoBoOm
-A convolutional neural network used to predict music genre.  
+A convolutional neural network used to predict music genre. Created alongside partner [Armaan Lalani](https://github.com/armaanlalani)
 
 
 
