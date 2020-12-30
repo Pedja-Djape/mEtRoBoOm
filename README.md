@@ -24,5 +24,6 @@ The overarching goal of this project is to develop a neural network capable of c
 ### Technologies Used
   * Python 3.x
   * PyTorch 1.6.0
+  * Librosa 
 
     
